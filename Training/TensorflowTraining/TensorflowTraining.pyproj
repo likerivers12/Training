@@ -31,6 +31,9 @@
     <Compile Include="from_dasony\test_mnist2_nn.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="GetStarted\03_deep_mnist.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="mnist\mnist_softmax.py">
       <SubType>Code</SubType>
     </Compile>
