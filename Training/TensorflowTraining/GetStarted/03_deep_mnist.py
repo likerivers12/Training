@@ -1,4 +1,4 @@
-# -*- coding: cp-949 -*-
+# -*- coding: cp949 -*-
 # https://www.tensorflow.org/get_started/mnist/pros
 
 
@@ -46,11 +46,11 @@ W = tf.Variable(tf.zeros([784,10]))
 b = tf.Variable(tf.zeros([10]))
 
 # Dimension
-#  [¿­]
+#  [ì—´]
 #   ^
-#  [Çà, ¿­]
+#  [í–‰, ì—´]
 #   ^
-#  [±íÀÌ, Çà, ¿­]
+#  [ê¹Šì´, í–‰, ì—´]
 
 
 sess.run(tf.global_variables_initializer())
@@ -59,7 +59,7 @@ sess.run(tf.global_variables_initializer())
 y = tf.matmul(x,W) + b
 
 
-# DimensionÀÌ È®ÀåµÇ¾î ¿¬»êµÈ´Ù.
+# Dimensionï¿½ï¿½ È®ï¿½ï¿½Ç¾ï¿½ ï¿½ï¿½ï¿½ï¿½È´ï¿½.
 
 #>>> sess.run(b + 1)
 #array([ 1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.], dtype=float32)
