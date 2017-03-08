@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2eeb6ffc-c30f-4cea-8b17-b1b5d4898135</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>TensorflowTraining.py</StartupFile>
+    <StartupFile>GetStarted\01_get_started.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="from_dasony\get_started_TF\TF1_constant.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="from_dasony\test_mnist1.py">
       <SubType>Code</SubType>
     </Compile>
@@ -31,11 +34,13 @@
     <Compile Include="mnist\mnist_softmax.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="TensorflowTraining.py" />
+    <Compile Include="GetStarted\01_get_started.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="from_dasony\get_started_TF\" />
     <Folder Include="mnist\" />
     <Folder Include="from_dasony\" />
+    <Folder Include="GetStarted\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
