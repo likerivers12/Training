@@ -59,7 +59,7 @@ sess.run(tf.global_variables_initializer())
 y = tf.matmul(x,W) + b
 
 
-# Dimension�� Ȯ��Ǿ� ����ȴ�.
+# 연산시에 Dimension이 자동 확장됨.
 
 #>>> sess.run(b + 1)
 #array([ 1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.], dtype=float32)
