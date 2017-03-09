@@ -1,4 +1,4 @@
-# -*- coding: cp949 -*-
+# -*- coding: utf8 -*-
 # https://www.tensorflow.org/get_started/mnist/pros
 
 
@@ -46,12 +46,10 @@ W = tf.Variable(tf.zeros([784,10]))
 b = tf.Variable(tf.zeros([10]))
 
 # Dimension
-#  [열]
-#   ^
-#  [행, 열]
-#   ^
-#  [깊이, 행, 열]
-
+# 
+# [열]
+# [행,열]
+# [깊이,행,열]
 
 sess.run(tf.global_variables_initializer())
 
@@ -59,7 +57,7 @@ sess.run(tf.global_variables_initializer())
 y = tf.matmul(x,W) + b
 
 
-# 연산시에 Dimension이 자동 확장됨.
+# 연산시에 Dimension을 자동 확장
 
 #>>> sess.run(b + 1)
 #array([ 1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.], dtype=float32)
